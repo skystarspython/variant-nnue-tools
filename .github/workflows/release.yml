@@ -10,7 +10,7 @@ jobs:
   windows:
     strategy:
       matrix:
-        arch: ["x86-64-vnni512"]
+        arch: ["x86-64-modern"]
     runs-on: ubuntu-20.04
 
     steps:
